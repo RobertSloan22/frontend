@@ -1,9 +1,5 @@
 import { useSelector } from 'react-redux'
 import '../styles/profile.css'
-import { Query } from 'mongoose'
-// THIS PAGE MUST CONTAIN THE CODE FOR MAKING A DEPOSIT AND WITHDRAW FROM THE ACCOUNT
-
-
 
 const ProfileScreen = () => {
   const { userInfo } = useSelector((state) => state.auth)
